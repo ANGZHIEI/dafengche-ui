@@ -1,0 +1,161 @@
+/* pages/login/login.wxss */
+.choice {
+  position: absolute;
+  background-color: #6E9FF1;
+  height: 72rpx;
+  width: 322rpx;
+  border-radius: 36rpx;
+  top: 170rpx;
+  left: 5.6%;
+  z-index: 9;
+  font-size: 32rpx;
+  line-height: 72rpx;
+}
+.choice-login {
+  height: 72rpx;
+  width: 161rpx;
+  margin-left: 0rpx;
+  border-radius: 36rpx;
+  color: #ffffff;
+  text-align: center;
+  float: left;
+}
+.choice-register{
+  height: 72rpx;
+  width: 161rpx;
+  border-radius: 36rpx;
+  color: #ffffff;
+  float: right;
+  text-align: center;
+}
+.choiceAn {
+  position: absolute;
+  height: 72rpx;
+  width: 161rpx;
+  border-radius: 36rpx;
+  background-color: #ffffff;
+  z-index: -1;
+}
+.box {
+  padding-top: 30rpx;
+  position: absolute;
+  width: 670rpx;
+  height: 736rpx;
+  margin: auto;
+  left: 0;
+  right: 0;
+  top: 260rpx;
+  box-shadow: 0 3px 10px 0 rgba(24,38,61,0.10);
+  background: #FFFFFF;
+}
+.boxLine{
+  border-bottom: 1px #D8D6D6 solid;
+  width: 580rpx;
+  height: 90rpx;
+  margin: 20rpx auto;
+}
+.box-img {
+  margin-left: 24rpx;
+  line-height: 100rpx;
+  float: left;
+}
+.box-img image{
+  width: 100%;
+  height: 100%;
+}
+.boxLine input{
+  width: 400rpx;
+  line-height: 90rpx;
+  height: 90rpx;
+  padding-left: 40rpx;
+  font-size: 32rpx;
+  float: left;
+}
+.line-01 .box-img{
+  width: 30rpx;
+  height: 42rpx;
+}
+.line-02 .box-img{
+  width: 32rpx;
+  height: 40rpx;
+}
+.line-03 .box-img{
+   width: 34rpx;
+  height: 40rpx;
+}
+.line-04 .box-img{
+  width:34rpx;
+  height: 40rpx;
+}
+.line-04 input{
+  width: 260rpx;
+}
+.show {
+  width: 36rpx;
+  height: 32rpx;
+  float: left;
+  line-height: 90rpx;
+}
+.show image{
+  width: 100%;
+  height: 100%;
+}
+.getYzm {
+  margin: 17rpx 0;
+  width: 192rpx;
+  height: 56rpx;
+  background-color: #41ABFE ;
+  color: #ffffff;
+  font-size: 28rpx;
+  border-radius: 28px;
+  text-align: center;
+  line-height: 56rpx;
+  float: right;
+}
+.protocol {
+  width: 540rpx;
+  height: 34rpx;
+  margin: 50rpx auto;
+  font-size: 26rpx;
+  line-height: 34rpx;
+  color: #444648;
+}
+.text01 {
+  color: #B6B8BA;
+  float: left;
+}
+.check {
+  width: 34rpx;
+  height: 34rpx;
+  border-radius: 8rpx;
+  float: left;
+  margin: 0 20rpx 0 4rpx;
+}
+.check image{ 
+  width: 100%;
+  height: 100%;
+}
+.register {
+  width: 580rpx;
+  background-image: linear-gradient(-90deg, #4CA6FF 0%, #2091FF 100%);
+  border-radius: 3px;
+  height: 88rpx;
+  margin: auto;
+  background-color: #4CA6FF;
+  font-size: 32rpx;
+  color: #ffffff;
+  text-align: center;
+  line-height: 88rpx;
+}
+.login {
+  width: 580rpx;
+  background-image: linear-gradient(-90deg, #4CA6FF 0%, #2091FF 100%);
+  border-radius: 3px;
+  height: 88rpx;
+  margin: 80rpx auto 0;
+  background-color: #4CA6FF;
+  font-size: 32rpx;
+  color: #ffffff;
+  text-align: center;
+  line-height: 88rpx;
+}

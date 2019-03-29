@@ -1,0 +1,62 @@
+<!--pages/login/login.wxml-->
+<!-- 状态栏背景 -->
+<view class='bar' style = 'width: 100%;height: 360rpx;position: relative;z-index: -1;' ><image src='/static/img/index-11.png' style='width: 100%;height: 100%;'></image></view ><view class='bar-title' style='position: absolute;line-height: 110rpx;color: #ffffff;font-size: 32rpx;height: 110rpx;width: 100%;top: 44rpx;'><text>注册</text><view class='return' style='width: 40rpx;height: 40rpx;float: left;margin: 36rpx 40rpx;'><image src='/static/img/index-14.png' style='width: 40rpx;height: 40rpx;float: left;'></image></view></view>
+  <!-- 登录/注册选择 -->
+
+  <view class='choice'>
+    <view class='choice-login' bindtap='loginBtnAn' style='color:{{color==0?"#4681E7":"#ffffff"}}'>登录</view>
+    <view class='choice-register' bindtap='registerBtnAn' style='color:{{color==1?"#4681E7":"#ffffff"}}'>注册</view>
+    <view class='choiceAn' animation='{{animation}}'></view>
+  </view>
+  <!-- 登陆 -->
+  <view class='box' wx:if='{{choice==0}}'>
+    <view class='boxLine line-01'>
+      <view class='box-img'>
+        <image src='/static/img/index-02.png'></image>
+      </view>
+      <input type='text' placeholder='请输入11位手机号' maxlength='11'></input>
+    </view>
+    <view class='boxLine line-02'>
+      <view class='box-img'>
+        <image src='/static/img/index-01.png'></image>
+      </view>
+      <input type='{{type}}' placeholder='请输入密码' maxlength='22'></input>
+      <view class='show' bindtap='showPassword'><image src='/static/img/index-15.png'></image></view>
+    </view>
+     <view class='login'>登录</view>
+  </view>
+  <!-- 注册 -->
+  <view class='box' wx:if='{{choice==1}}'>
+    <view class='boxLine line-01'>
+      <view class='box-img'>
+        <image src='/static/img/index-02.png'></image>
+      </view>
+      <input type='text' placeholder='请输入11位手机号' maxlength='11'></input>
+    </view>
+    <view class='boxLine line-02'>
+      <view class='box-img'>
+        <image src='/static/img/index-01.png'></image>
+      </view>
+      <input type='{{type}}' placeholder='请输入密码' maxlength='22'></input>
+      <view class='show' bindtap='showPassword'><image src='/static/img/index-15.png'></image></view>
+    </view>
+    <view class='boxLine line-03'>
+      <view class='box-img'>
+        <image src='/static/img/index-08.png'></image>
+      </view>
+      <input type='text' placeholder='请输入邀请码' maxlength='8'></input>
+    </view>
+    <view class='boxLine line-04'>
+      <view class='box-img'>
+        <image src='/static/img/index-07.png'></image>
+      </view>
+      <input type='text' placeholder='请输入验证码' maxlength='6'></input>
+      <view class='getYzm'>获取验证码</view>
+    </view>
+    <view class='protocol'>
+      <view class='check' bindtap='checkBox'><image src="{{boxUrl?'/static/img/index-16.png':'/static/img/index-17.png'}}"></image></view>
+      <text class='text01'>同意</text>
+      <view class='text'>《注册协议》包含电子签章合同</view>
+    </view>
+    <view class='register'>立即注册</view>
+  </view>

@@ -1,0 +1,32 @@
+<!-- 首页 pages/index/index.wxml-->
+<view>
+  <!-- 状态栏背景 -->
+  <view class='bar'>
+    <image src='/static/img/index-11.png'></image>
+  </view>
+  <!-- 标题 -->
+  <view class='bar-title'>
+    <text>大丰车</text>
+    <view class='return'>
+      <image src='/static/img/index-14.png'></image>
+    </view>
+  </view>
+  <!-- 地图 -->
+  <view class='index-map'>
+    <map class='map'></map>
+  </view>
+  <view class='index-back-01'>
+    <view class='roll-info'>
+      <view class='roll-img'><image src='/static/img/index-13.png'></image></view>
+      <view class='toll-text'><text>172***3456\t王**\t成功支付5000元油款</text></view>
+    </view>
+  </view>
+  <view class='index-back-02'>
+    <view class='index-btn'><text>油</text><text class='oil-info'>先用后给钱</text></view>
+    <view class='index-btn'><text>车辆轨迹</text></view>
+    <view class='index-btn'><text>关于我们</text></view>
+  </view>
+  <view class='index-info'>
+    <text>-大丰车竭诚为你服务-</text>
+  </view>
+</view>

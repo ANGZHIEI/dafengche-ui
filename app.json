@@ -1,0 +1,39 @@
+{
+  "pages":[
+    "pages/login/login",
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "大丰车",
+    "navigationBarTextStyle": "white",
+    "navigationStyle": "custom"
+  },
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#2996FF",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "/static/img/index-04.png",
+        "selectedIconPath": "/static/img/index-03.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "/static/img/index-10.png",
+        "selectedIconPath":"/static/img/index-09.png",
+        "text": "资讯"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "/static/img/index-06.png",
+        "selectedIconPath": "/static/img/index-05.png",
+        "text": "我的"
+      }
+    ]
+  }
+}

@@ -1,0 +1,115 @@
+/* pages/index/index.wxss */
+Page {
+  background-color: #F5F6F8 ;
+}
+.bar {
+  width: 100%;
+  height: 360rpx;
+  position: relative;
+  z-index: -1;
+}
+.bar image {
+  width: 100%;
+  height: 100%;
+}
+.bar-title {
+  position: absolute;
+  line-height: 110rpx;
+  color: #ffffff;
+  font-size: 32rpx;
+  height: 110rpx;
+  width: 100%;
+  top: 44rpx;
+}
+.return {
+  width: 40rpx;
+  height: 40rpx;
+  float: left;
+  margin: 36rpx 40rpx;
+}
+.return image {
+  width: 40rpx;
+  height: 40rpx;
+  float: left;
+}
+.index-map {
+  position: absolute;
+  border: 1px #f1f1f1 solid;
+  height: 414rpx;
+  width: 670rpx;
+  margin: auto;
+  border-radius: 16rpx;
+  top: 166rpx;
+  left: 0;
+  right: 0;
+  z-index: 9;
+  overflow: hidden;
+  box-shadow: 1rpx 1rpx 10rpx rgb(158, 158, 158);
+}
+.map {
+  width: 100%;
+  height: 100%;
+}
+.index-back-01 {
+  background-color: #ffffff;
+  width: 100%;
+  height: 300rpx;
+  margin-top: 20rpx;
+  position: relative;
+}
+.index-back-02 {
+  background-color: #ffffff;
+  width: 100%;
+  height: 400rpx;
+  margin-top: 20rpx;
+  padding: 20rpx 0;
+}
+.index-info {
+  text-align: center;
+  font-size: 24rpx;
+  color: #AAACAE ;
+  margin-top: 30rpx;
+}
+.roll-info {
+  position: absolute;
+  width: 670rpx;
+  height: 36rpx;
+  margin: auto;
+  left: 0;
+  right: 0;
+  bottom: 22rpx;
+  font-size: 24rpx;
+  color: #686A6E;
+  line-height: 36rpx;
+}
+.toll-text{
+  width: 560rpx;
+  height: 36rpx;
+  margin-left: 46rpx;
+}
+.roll-img {
+  width: 26rpx;
+  height: 26rpx;
+  margin-top: 5rpx;
+  float: left;
+}
+.roll-img image {
+  width: 100%;
+  height: 100%;
+  float: left;
+}
+.index-btn {
+  width: 668rpx;
+  height: 88rpx;
+  margin: 36rpx auto;
+  border-radius: 10rpx;
+  background: repeating-linear-gradient(rgb(57, 156, 255), rgb(72, 163, 255) 50%, rgb(57, 156, 255));
+  text-align: center;
+  color: #ffffff;
+  font-size: 32rpx;
+  line-height: 88rpx;
+}
+.oil-info {
+  margin-left: 12rpx;
+  font-size: 24rpx;
+}
